@@ -34,6 +34,7 @@ $cvx-bg-color: #0095dd;
 
 .container-flex {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
