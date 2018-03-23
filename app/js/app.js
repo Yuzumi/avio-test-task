@@ -24,10 +24,6 @@ const App = ((Canvas, Util) => {
         mouse.x     = e.clientX - canvas.offsetLeft;
         mouse.y     = e.clientY - canvas.offsetTop;
         mouse.angle = Util.calculateAngle(canvas.center, mouse);
-
-        document.getElementById('x').innerHTML = mouse.x;
-        document.getElementById('y').innerHTML = mouse.y;
-        document.getElementById('angle').innerHTML = mouse.angle;
     };
 
     return {
