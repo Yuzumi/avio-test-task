@@ -1,9 +1,9 @@
 
 class Util {
         /**
-     * Определяет угол между позицией указателя миши и осью OX
+     * Определяет угол между позицией указателя мыши и осью OX
      * @param {*} point координаты центра экрана
-     * @param {*} mouse координаты (x, y) указателя миши
+     * @param {*} mouse координаты указателя миши
      */
     static calculateAngle(point, mouse) {
         let angle = Math.atan2(point.y - mouse.y, point.x - mouse.x) * (180 / Math.PI);
